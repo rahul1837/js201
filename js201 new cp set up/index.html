@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/skeleton.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Vite App</title>
+    <!-- <link rel="stylesheet" type ="text/css" href="style.css"> -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <h1>Masai App</h1>
+          <p>masai app</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="columns four sidebar-one" id="sidebar-one">
+
+          <h4>Actions</h4>
+          <button id="fetch-employees" class="u-full-width button button-primary">fetch Employees</button>
+          <button id="fetch-Recipees" class="u-full-width button button-primary">fetch Recipees</button>
+ 
+        </div>
+          <div class="columns eight main">
+            <div class="notifications-wrapper" id="notifications-wrapper"></div>
+            <div class="data-list-wrapper" id="data-list-wrapper"></div>
+          </div>
+      </div>
+    </div>
+
+    <!-- let card = <div class ="card">
+
+      <div class = "card_img">
+       <img src= ${cardData[0].imageUrl} alt="food"/>
+       
+      </div>
+
+       <div class="card_body">
+
+        <h3 class = "card_item"> ${cardData[0].title</h3>
+          <div class="card_description">
+            ${cardData[0].description}
+          </div>
+          <a href="#" class ="card_link">${cardData[0].LinkText}</a>
+       </div>
+   </div> -->
+
+    <script src="./scripts/main.js" type="module"></script>
+    
+  </body>
+</html>
